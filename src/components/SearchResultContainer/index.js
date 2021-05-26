@@ -41,7 +41,7 @@ class SearchResultContainer extends Component {
 
   // sort by first name
   sortByName = () => {
-    const alphabetizedResults = this.state.employees.sort((a, b) => {
+    const alphabetizedResults = this.state.results.sort((a, b) => {
       return a.name.first > b.name.first ? 1 : -1;
     });
 
@@ -51,7 +51,7 @@ class SearchResultContainer extends Component {
     } else {
       this.setState({ sort: "DESC" });
     }
-    this.setState({ employees: alphabetizedResults });
+    this.setState({ results: alphabetizedResults });
   };
 
   // sort by phone
@@ -62,7 +62,7 @@ class SearchResultContainer extends Component {
         ? 1
         : -1;
     });
-    this.setState({ employees: phoneResults });
+    this.setState({ results: phoneResults });
   };
 
   render() {

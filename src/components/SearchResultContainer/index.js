@@ -4,8 +4,6 @@ import Results from "../Results/index";
 import Title from "../Title/index";
 // import "./style.css";
 import API from "../../utils/API";
-
-
 class SearchResultContainer extends Component {
   state = {
     // search
@@ -23,8 +21,7 @@ class SearchResultContainer extends Component {
 
   searchUsers = (query) => {
     API.search(query).then((res) => {
-      this.setState({ results: res.data.results })
-    
+      this.setState({ results: res.data.results });
     });
   };
 
@@ -71,7 +68,7 @@ class SearchResultContainer extends Component {
   render() {
     return (
       <div>
-      <Title />
+        <Title />
         <SearchForm
           search={this.state.search}
           handleFormSubmit={this.handleFormSubmit}

@@ -1,11 +1,9 @@
-import react from "react";
-
 function Title() {
-    return(
-        <div>
-            <h1>User Directory</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1>User Directory</h1>
+    </div>
+  );
 }
 
 export default Title;

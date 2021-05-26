@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/jenngreiner/user-directorystatic/js/main.e13fb4ae.chunk.js",
+    "main.js.map": "/jenngreiner/user-directorystatic/js/main.e13fb4ae.chunk.js.map",
+    "runtime-main.js": "/jenngreiner/user-directorystatic/js/runtime-main.1f861dca.js",
+    "runtime-main.js.map": "/jenngreiner/user-directorystatic/js/runtime-main.1f861dca.js.map",
+    "static/js/2.effbe304.chunk.js": "/jenngreiner/user-directorystatic/js/2.effbe304.chunk.js",
+    "static/js/2.effbe304.chunk.js.map": "/jenngreiner/user-directorystatic/js/2.effbe304.chunk.js.map",
+    "index.html": "/jenngreiner/user-directoryindex.html",
+    "static/js/2.effbe304.chunk.js.LICENSE.txt": "/jenngreiner/user-directorystatic/js/2.effbe304.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f861dca.js",
+    "static/js/2.effbe304.chunk.js",
+    "static/js/main.e13fb4ae.chunk.js"
+  ]
+}

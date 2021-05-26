@@ -1,7 +1,24 @@
-# user-directory
-# Getting Started with Create React App
+# User Directory | Jenn Greiner
+
+### Table of Contents:
+* [Deployed Site](#deployed-site)
+* [User Story](#user-story)
+* [Description](#description)
+* [Usage](#Usage)
+* [Mock-Up](#Mock-Up)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployed Site
+[Production Link](https://jenngreiner.github.io/user-directory/)
+
+
+## User Story
+As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+
+
+## Usage
+Search for a user by entering a term in the search box, or click on a column title to sort by category
 
 ## Available Scripts
 
